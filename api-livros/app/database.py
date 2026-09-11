@@ -27,7 +27,7 @@ criar_sessao = sessionmaker(bind=mecanismo_banco, autoflush=False, autocommit=Fa
 
 
 class BaseBanco(DeclarativeBase):
-    passs
+    pass
 
 
 def obter_sessao_banco() -> Generator[Session, None, None]:
