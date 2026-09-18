@@ -76,6 +76,7 @@ def atualizar_livro(
     return livro
 
 
+
 @app.delete("/livros/{id_livro}", tags=["Livros"])
 def excluir_livro(
     id_livro: int,
